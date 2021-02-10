@@ -56,13 +56,17 @@ The Application supports following queries
         
          
          
- ## Health status 
+ ## Health status  
+ The health of the System can be found by below query 
+ 
       1. localhost:8080/acumulater/health
       
               {"status":"UP"}
        
  
 ## Statistics
+To get the count of number of Successful, Failed cases
+
       1. http://localhost:8080/stats  
       
              {FAILURE COUNT=0, TOTAL REQUEST COUNT=1, SUCCESSFUL COUNT=1}
