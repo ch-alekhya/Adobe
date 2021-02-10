@@ -52,11 +52,12 @@ The Application supports two queries
  
  ## Health status 
       1. localhost:8080/acumulater/health
+      ```
+          {"status":"UP"}
+       ```
  
 ## Statastics
       1. http://localhost:8080/stats  
-      
-      
       ```
             {FAILURE COUNT=0, TOTAL REQUEST COUNT=1, SUCCESSFUL COUNT=1}
        ```
