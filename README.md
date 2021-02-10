@@ -34,6 +34,8 @@ The Application supports two queries
     7. docker ps -a  or docker images gives you list of docker immages that are running and you can see tagged(adobe) is also presnet  
     8. docker run -p 8080:8080 -t <tagname> . example docker run -p 8080:8080 -t adobe.  
     9. this will run the application on 8080  
+    
+    
  
       ```mvn clean install
            docker bu,ild -t adobe .
@@ -41,6 +43,8 @@ The Application supports two queries
         ```
    ### Running as JAR file
     6.  java -jar target/spring-boot-0.0.1-SNAPSHOT.jar  
+    
+    
            
         ``` mvn clean install
          java -jar target/spring-boot-0.0.1-SNAPSHOT.jar
@@ -50,7 +54,9 @@ The Application supports two queries
       1. localhost:8080/acumulater/health
  
 ## Statastics
-      1. http://localhost:8080/stats
+      1. http://localhost:8080/stats  
+      
+      
       ```
             {FAILURE COUNT=0, TOTAL REQUEST COUNT=1, SUCCESSFUL COUNT=1}
        ```
