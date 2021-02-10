@@ -67,6 +67,6 @@ The Application supports two queries
               /var/tmp/intToRoman.log
 
 ## Contributing
-Pull requets are welcome. For major changes please drop a comment 
+Pull requests are welcome. For major changes please drop a comment 
 
 
