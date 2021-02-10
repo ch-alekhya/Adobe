@@ -5,21 +5,23 @@ Given an integer within range(1-3999) the application will give the Roman value
 
 ## Overview
 The Application supports two queries 
-##### Input : localhost:8080/romannumeral?query=299  
-             
-                  {output=CCXCIX, input=299}
-           
 
+##### Input : localhost:8080/
 ##### Output :
+         
+         Welcome to the Application that converts Integer to Roman
+        
+##### Input : localhost:8080/romannumeral?query=299  
+##### Output :
+  
+              {output=CCXCIX, input=299}
 
 
 ##### Input : localhost:8080/romannumeral?min=1&max=3
 ##### Output :
          
          {"conversions":[{"output":"I","input":1},{"output":"II","input":2},{"output":"III","input":3},{"output":"IV","input":4}]}
-        
-
-
+         
 
 ## Steps to run the application 
    1.Clone the repo into any of the directory (Example C:/adobe)  
@@ -37,7 +39,7 @@ The Application supports two queries
     
         
                 mvn clean install
-                docker bu,ild -t adobe .
+                docker build -t adobe .
                 docker run -p 8080:8080 -t adobe .
       
       
