@@ -8,7 +8,7 @@ Given an integer within range(1-3999) the application will give the Roman value
    3. [Docker](https://www.docker.com/products/docker-desktop)
    
 ## Overview
-The Application supports two queries 
+The Application supports following queries 
 
 ##### Input : localhost:8080/
 ##### Output :
