@@ -44,20 +44,20 @@ The Application supports two queries
    ### Running as JAR file
     6.  java -jar target/spring-boot-0.0.1-SNAPSHOT.jar  
     
-    
-           
         ``` mvn clean install
          java -jar target/spring-boot-0.0.1-SNAPSHOT.jar
          ```
- 
+         
  ## Health status 
       1. localhost:8080/acumulater/health
+      
       ```
           {"status":"UP"}
        ```
  
 ## Statastics
       1. http://localhost:8080/stats  
+      
       ```
             {FAILURE COUNT=0, TOTAL REQUEST COUNT=1, SUCCESSFUL COUNT=1}
        ```
