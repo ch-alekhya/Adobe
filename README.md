@@ -74,7 +74,7 @@ To get the count of number of Successful, Failed queries
 ## Logging
     1. Additional Logs are found in
             
-              /var/tmp/intToRoman.log
+              /var/tmp/int_to_roman.log
 
 ## Contributing
 Pull requests are welcome. For major changes please drop a comment 
