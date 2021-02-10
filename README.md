@@ -65,7 +65,7 @@ The Application supports following queries
        
  
 ## Statistics
-To get the count of number of Successful, Failed cases
+To get the count of number of Successful, Failed queries
 
       1. http://localhost:8080/stats  
       
