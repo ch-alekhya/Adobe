@@ -25,11 +25,4 @@ public class IntegerToRoman {
 		
 	}
 
-	
-	/*public static void main(String[] args)
-	{
-		IntegerToRoman obj = new IntegerToRoman();
-		System.out.println(obj.intToRoman(3549));
-		
-	}*/
 }

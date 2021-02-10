@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>adobe123</groupId>
-    <artifactId>adobe123</artifactId>
+    <groupId>com.adobe</groupId>
+    <artifactId>spring-boot</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
@@ -16,10 +15,8 @@
     </parent>
     <properties>
         <java.version>1.8</java.version>
-        <start-class>adobe123.adobe123.App</start-class>
+        <start-class>com.adobe.Application</start-class>
     </properties>
-
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -75,10 +72,6 @@
             </extension>
         </extensions>
         <plugins>
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.0</version>
-            </plugin>
         </plugins>
     </build>
 
@@ -131,6 +124,10 @@
                                 <artifactId>svm</artifactId>
                                 <version>${graal.version}</version>
                             </dependency>
+                            <dependency>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
                         </dependencies>
                         <executions>
                             <execution>
