@@ -27,12 +27,12 @@ The Application supports two queries
    1.Clone the repo into any of the directory (Example /home/adobe)  
    2. Change into directory /home/adobe  
    3. simple check . Execute "ls" command to see "src" directory, pom.xml, Dockerfile  
-   4. execute mvn clean install (please check if maven is installed or not) if not please install maven and then execute the next steps 
-   5. run "ls" command and you can see "target" folder created   
-   6. rum "mvn clean install" 
+   4. Install maven if its not installed [maven](http://maven.apache.org/install.html)  
+   5. run "mvn clean install" 
+   6. run "ls" command and you can see "target" folder created 
    
 
-   ### Running as Docker contaner 
+   ### Running as Docker container 
     1. docker build -t <tagname> . (you can provide any tag) for example docker build -t adobe. 
     2. docker ps -a  or docker images gives you list of docker immages that are running and you can see tagged(adobe) is also presnet  
     3. docker run -p 8080:8080 -t <tagname> . example docker run -p 8080:8080 -t adobe.  
