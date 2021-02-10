@@ -3,7 +3,7 @@ This project contains the spring boot application of Integer to Roman
 Given an integer within range(1-3999) the application will give the Roman value 
 
 ## Prerequisites
-   1. [Mavne](http://maven.apache.org/install.html) 
+   1. [Maven](http://maven.apache.org/install.html) 
    2. [Java8](https://www.java.com/en/download/manual.jsp)
    3. [Docker](https://www.docker.com/products/docker-desktop)
    
