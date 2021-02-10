@@ -20,4 +20,9 @@ Steps to run the application
         -- Clone the repo into any of the directory (Example C:/adobe)
         -- Change into directory C:/adobe
         -- simple check . Execute "ls" command to see "src" directory, pom.xml, Dockerfile
-        --  
+        --  execute mvn clean install (please check if maven is installed or not) if not please install maven ans yd then execute the next steps
+        -- run "ls" command and you can see "target" folder created
+        -- docker build -t <tagname> . (you can provide any tag) for example docker build -t adobe.
+        -- docker ps -a  or docker images gives you list of doc ker immages that are running and you can see tagged(adobe) is also presnet
+        -- docker run -p 8080:8080 -t <tagname> . example docker run -p 8080:8080 -t adobe.
+        -- this will run the application on 8080
