@@ -2,7 +2,11 @@
 This project contains the spring boot application of Integer to Roman 
 Given an integer within range(1-3999) the application will give the Roman value 
 
-
+## Prerequisites
+   1. [Mavne](http://maven.apache.org/install.html) 
+   2. [Java8](https://www.java.com/en/download/manual.jsp)
+   3. [Docker](https://www.docker.com/products/docker-desktop)
+   
 ## Overview
 The Application supports two queries 
 
@@ -27,9 +31,8 @@ The Application supports two queries
    1.Clone the repo into any of the directory (Example /home/adobe)  
    2. Change into directory /home/adobe  
    3. simple check . Execute "ls" command to see "src" directory, pom.xml, Dockerfile  
-   4. Install maven if its not installed [maven](http://maven.apache.org/install.html)  
-   5. run "mvn clean install" 
-   6. run "ls" command and you can see "target" folder created 
+   4. run "mvn clean install" 
+   5. run "ls" command and you can see "target" folder created 
    
 
    ### Running as Docker container 
