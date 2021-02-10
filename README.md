@@ -64,6 +64,8 @@ The Application supports two queries
       ```
             {FAILURE COUNT=0, TOTAL REQUEST COUNT=1, SUCCESSFUL COUNT=1}
        ```
+## Logging
+    1. Additional Logs are found in /var/tmp/intToRoman.log
 
 ## Contributing
 Pull requets are welcome. For major changes please drop a comment 
