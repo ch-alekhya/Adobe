@@ -5,7 +5,10 @@ Given an integer within range(1-3999) the application will give the Roman value
 
 ## Overview
 The Application supports two queries 
-##### Input : localhost:8080/romannumeral?query=1
+##### Input : localhost:8080/romannumeral?query=1  
+              ```
+                  {output=CCXCIX, input=299}
+               ```
 
 ##### Output :
 
