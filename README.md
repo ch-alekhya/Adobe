@@ -3,19 +3,19 @@ This project contains the spring boot application of Integer to Roman
 Given an integer within range(1-3999) the application will give the Roman value 
 
 
-#The Application supports two queries 
+## Overview
+The Application supports two queries 
+## Input : localhost:8080/romannumeral?query=1
 
-##Input : localhost:8080/romannumeral?query=1
-
-##Output :
-
-
-##Input : localhost:8080/romannumeral?min=1&max=3
-##Output :
+## Output :
 
 
+## Input : localhost:8080/romannumeral?min=1&max=3
+## Output :
 
-#Steps to run the application 
+
+
+## Steps to run the application 
 -- Running as Docker contaner 
         -- Clone the repo into any of the directory (Example C:/adobe)
         -- Change into directory C:/adobe
@@ -30,7 +30,7 @@ Given an integer within range(1-3999) the application will give the Roman value
            docker bu,ild -t adobe .
            docker run -p 8080:8080 -t adobe .
         ```
-##Contributing
+## Contributing
 Pull requets are welcome. For major changes please drop a comment 
 
 
