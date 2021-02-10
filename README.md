@@ -30,7 +30,7 @@ The Application supports following queries
 ## Steps to run the application 
    1.Clone the repo into any of the directory (Example /home/adobe)  
    2. Change into directory /home/adobe  
-   3. simple check . Execute "ls" command to see "src" directory, pom.xml, Dockerfile  
+   3. simple check . Execute "ls" command and you should be able to see "src" directory, pom.xml, Dockerfile  
    4. run "mvn clean install"  
    5. run "ls" command and you can see "target" folder created 
    
